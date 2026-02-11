@@ -1,5 +1,5 @@
 {
-  "name": "chronolite",
+  "name": "chronolite-time",
   "version": "0.1.0",
   "description": "Lightweight natural language time parser for JavaScript",
   "main": "src/index.js",
@@ -25,10 +25,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AdityaGowda/ChronoLite.git"
+    "url": "https://github.com/AdityaGowda/chronolite-time.git"
   },
   "bugs": {
-    "url": "https://github.com/AdityaGowda/ChronoLite/issues"
+    "url": "https://github.com/AdityaGowda/chronolite-time/issues"
   },
-  "homepage": "https://github.com/AdityaGowda/ChronoLite#readme",
+  "homepage": "https://github.com/AdityaGowda/chronolite-time#readme"
 }

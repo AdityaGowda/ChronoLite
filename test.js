@@ -15,7 +15,7 @@ let errorCount = 0;
 
 // ---------------- Performance ----------------
 
-console.time("ChronoLite Parse");
+console.time("chronolite-time Parse");
 
 // ---------------- Run Tests ----------------
 
@@ -45,7 +45,7 @@ cases.forEach((input) => {
   }
 });
 
-console.timeEnd("ChronoLite Parse");
+console.timeEnd("chronolite-time Parse");
 
 // ---------------- Summary ----------------
 

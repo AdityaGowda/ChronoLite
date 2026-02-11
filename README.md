@@ -1,9 +1,9 @@
-# ChronoLite ⏱️ — Natural Language Time Parser
+# chronolite-time ⏱️ — Natural Language Time Parser
 
-[![npm version](https://img.shields.io/npm/v/chronolite.svg)](https://www.npmjs.com/package/chronolite)
+[![npm version](https://img.shields.io/npm/v/chronolite-time.svg)](https://www.npmjs.com/package/chronolite-time)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-ChronoLite is a lightweight JavaScript library that converts **human-readable time expressions** into machine-friendly objects and timestamps.
+chronolite-time is a lightweight JavaScript library that converts **human-readable time expressions** into machine-friendly objects and timestamps.
 
 It supports:
 
@@ -32,7 +32,7 @@ Built for schedulers, reminders, bots, dashboards, and automation systems.
 ## 🚀 Installation
 
 ```bash
-npm install chronolite
+npm install chronolite-time
 ```
 
 ---
@@ -42,7 +42,7 @@ npm install chronolite
 ### Basic Example
 
 ```javascript
-import { parseTime } from "chronolite";
+import { parseTime } from "chronolite-time";
 
 // Duration parsing
 const duration = parseTime("3 hours");
@@ -62,14 +62,14 @@ console.log(absolute);
 If using CommonJS:
 
 ```javascript
-const { parseTime } = await import("chronolite");
+const { parseTime } = await import("chronolite-time");
 ```
 
 ---
 
 ## 📦 Return Format
 
-ChronoLite returns different objects depending on the input type:
+chronolite-time returns different objects depending on the input type:
 
 ### Duration
 ```javascript
@@ -177,7 +177,7 @@ parseTime("Feb 20 2026");
 - **DevOps scripts**
 - **Analytics dashboards**
 
-ChronoLite translates human time into timestamps your software can understand.
+chronolite-time translates human time into timestamps your software can understand.
 
 ---
 
