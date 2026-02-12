@@ -5,104 +5,7 @@
       <title>chronolite-time Playground</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <style>
-         * { box-sizing: border-box; }
-         body {
-         margin: 0;
-         font-family: system-ui, sans-serif;
-         background: #020617;
-         color: #e5e7eb;
-         }
-         .app {
-         display: flex;
-         min-height: 100vh;
-         }
-         .sidebar {
-         width: 260px;
-         background: #020617;
-         border-right: 1px solid #1f2933;
-         padding: 20px;
-         overflow-y: auto;
-         }
-         .sidebar h3 {
-         margin-top: 0;
-         font-size: 15px;
-         color: #93c5fd;
-         }
-         .sidebar ul {
-         padding-left: 16px;
-         font-size: 13px;
-         color: #9ca3af;
-         }
-         .sidebar li {
-         margin-bottom: 4px;
-         }
-         /* MAIN */
-         .main {
-         flex: 1;
-         padding: 40px 30px;
-         max-width: 900px;
-         }
-         h1 {
-         margin-top: 0;
-         }
-         .card {
-         background: #020617;
-         border: 1px solid #1f2933;
-         border-radius: 12px;
-         padding: 20px;
-         }
-         input {
-         width: 100%;
-         padding: 14px;
-         font-size: 16px;
-         border-radius: 8px;
-         border: 1px solid #334155;
-         background: #020617;
-         color: white;
-         }
-         button {
-         margin-top: 10px;
-         padding: 10px 16px;
-         border-radius: 8px;
-         border: none;
-         background: #2563eb;
-         color: white;
-         cursor: pointer;
-         }
-         button:hover {
-         background: #1d4ed8;
-         }
-         pre {
-         margin-top: 15px;
-         background: #020617;
-         border: 1px solid #1f2933;
-         border-radius: 8px;
-         padding: 12px;
-         font-size: 13px;
-         color: #22c55e;
-         }
-         .examples {
-         margin-top: 15px;
-         display: flex;
-         flex-wrap: wrap;
-         gap: 6px;
-         }
-         .example {
-         border: 1px solid #1f2933;
-         padding: 6px 10px;
-         border-radius: 6px;
-         font-size: 12px;
-         cursor: pointer;
-         color: #93c5fd;
-         }
-         .example:hover {
-         border-color: #2563eb;
-         }
-         footer {
-         margin-top: 30px;
-         font-size: 12px;
-         color: #64748b;
-         }
+       .card,pre{background:#020617;border:1px solid #1f2933}.card,.sidebar,body,input,pre{background:#020617}*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;color:#e5e7eb}.app{display:flex;min-height:100vh}.sidebar{width:260px;border-right:1px solid #1f2933;padding:20px;overflow-y:auto}.sidebar h3{margin:0 0 5px;font-size:15px;color:#93c5fd}.sidebar ul{padding-left:16px;font-size:13px;color:#9ca3af;margin:0 0 20px}.sidebar li{margin-bottom:4px}.main{flex:1;padding:40px 30px;max-width:900px}h1{margin-top:0}.card{border-radius:12px;padding:20px}input{width:100%;padding:14px;font-size:16px;border-radius:8px;border:1px solid #334155;color:#fff}button{margin-top:10px;padding:10px 16px;border-radius:8px;border:none;background:#2563eb;color:#fff;cursor:pointer}.examples,pre{margin-top:15px}button:hover{background:#1d4ed8}pre{border-radius:8px;padding:12px;font-size:13px;color:#22c55e}.examples{display:flex;flex-wrap:wrap;gap:6px}.example{border:1px solid #1f2933;padding:6px 10px;border-radius:6px;font-size:12px;cursor:pointer;color:#93c5fd}.example:hover{border-color:#2563eb}footer{margin-top:30px;font-size:12px;color:#64748b}
       </style>
    </head>
    <body>
@@ -155,16 +58,6 @@
                <li>friday</li>
                <li>saturday</li>
                <li>sunday</li>
-            </ul>
-            <h3>📅 Weekdays (Short)</h3>
-            <ul>
-               <li>mon</li>
-               <li>tue</li>
-               <li>wed</li>
-               <li>thu</li>
-               <li>fri</li>
-               <li>sat</li>
-               <li>sun</li>
             </ul>
             <h3>🗓 Weekday Modifiers</h3>
             <ul>
